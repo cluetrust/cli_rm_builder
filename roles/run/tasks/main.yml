@@ -1,8 +1,8 @@
 # tasks file for run
-- name: Install requirements
-  pip:
-    name: "{{ requirements }}"
-  changed_when: False
+#- name: Install requirements
+#  pip:
+#    name: "{{ requirements }}"
+#  changed_when: False
 
 - include_role:
     name: "{{ builder_roles }}"
